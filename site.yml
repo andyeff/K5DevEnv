@@ -1,2 +1,2 @@
 ---
-- import_plays: splunkservers.yml
+- include: splunkservers.yml
