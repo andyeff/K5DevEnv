@@ -1,0 +1,4 @@
+---
+- hosts: splunkservers
+  roles:
+      - common
