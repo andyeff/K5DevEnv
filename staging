@@ -1,2 +1,5 @@
 [splunkservers]
 splunk ansible_ssh_host=192.168.0.4
+
+[jumpservers]
+guac ansible_ssh_host=192.168.0.5

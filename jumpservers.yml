@@ -1,0 +1,8 @@
+---
+- hosts: jumpservers
+  vars:
+    guacamole_version: 0.9.13-incubating
+    guacamole_mysql_root_password: testpassword
+  roles:
+      - common
+      - zaxos.guacamole-ansible-role
